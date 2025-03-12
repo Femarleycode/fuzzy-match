@@ -1,0 +1,107 @@
+company_name,industry,revenue,date_of_birth,address
+Aple Incorporated,Technology,274.5,1985-03-15,One Apple Parkway Cupertino CA 94025
+Microsoft Corp,Software,168.1,1990-07-22,One Microsoft Way Redmond WA 98052
+Google Limited,Technology,257.6,1988-11-30,1600 Amphitheatre Pky Mountain View CA 94043
+Amazon Corporation,E-commerce,469.8,1982-04-18,410 Terry Avenue North Seattle WA 98109
+Meta Platform Inc,Social Media,116.6,1991-09-25,One Hacker Way Menlo Park CA 94025
+Netflix Corporation,Entertainment,31.6,1987-06-12,100 Winchester Cir Los Gatos CA 95032
+Tesla Motor Company,Automotive,53.8,1989-02-28,3500 Deer Creek Road Palo Alto CA 94304
+International Business Machines,Technology,77.1,1983-12-05,1 New Orchard Rd Armonk NY 10504
+Intel Corp.,Semiconductors,79.0,1986-08-14,2200 Mission College Boulevard Santa Clara CA 95054
+Oracle Corporation,Software,40.5,1984-05-20,500 Oracle Pkwy Redwood City CA 94065
+Salesforce.com,Cloud Computing,26.5,1992-01-15,415 Mission Street San Francisco CA 94105
+Adobe Inc,Software,15.8,1988-07-07,345 Park Ave San Jose CA 95110
+Twitter Corporation,Social Media,5.1,1991-03-28,1355 Market Street San Francisco CA 94103
+Uber Tech,Transportation,17.5,1987-11-11,1455 Market Street San Francisco CA 94103
+AirBnB Corporation,Travel,5.9,1993-04-02,888 Brannan Street San Francisco CA 94103
+PayPal Inc,Fintech,25.4,1985-09-19,2211 N First St San Jose CA 95131
+Nvidia Corporation,Semiconductors,26.9,1990-12-08,2788 San Tomas Expy Santa Clara CA 95051
+Dell Corp,Hardware,94.2,1981-06-30,One Dell Way Round Rock TX 78682
+Hewlett Packard Enterprise,Technology,27.8,1989-05-17,1501 Page Mill Rd Palo Alto CA 94304
+Cisco Corporation,Networking,49.8,1986-02-23,170 W Tasman Drive San Jose CA 95134
+Qualcomm Technologies,Semiconductors,33.6,1992-08-11,5775 Morehouse Drive San Diego CA 92121
+VMware Corporation,Software,12.9,1984-10-09,3401 Hillview Ave Palo Alto CA 94304
+Zoom Communications,Software,4.1,1991-07-14,55 Almaden Boulevard San Jose CA 95113
+Square Technologies,Fintech,17.7,1988-03-31,1455 Market Street San Francisco CA 94103
+Slack Corp,Software,0.9,1993-01-05,500 Howard Street San Francisco CA 94105
+DropBox Corporation,Cloud Storage,2.2,1987-04-22,1800 Owens Street San Francisco CA 94158
+Lyft Corporation,Transportation,3.2,1990-11-16,185 Berry St San Francisco CA 94107
+Pinterest Corporation,Social Media,2.6,1986-08-28,651 Brannan Street San Francisco CA 94107
+Snapchat Inc,Social Media,4.1,1992-05-13,2772 Donald Douglas Loop N Santa Monica CA 90405
+Spotify AB,Entertainment,11.4,1989-09-07,4 World Trade Center New York NY 10007
+Shopify Corporation,E-commerce,4.6,1991-02-19,150 Elgin St Ottawa ON K2P 1L4
+DocuSign Corporation,Software,2.1,1985-07-25,221 Main Street San Francisco CA 94105
+Twilio Corporation,Communications,2.8,1988-12-03,375 Beale Street San Francisco CA 94105
+Palantir Technologies,Software,1.5,1983-04-11,1555 Blake St Denver CO 80202
+Roblox Technologies,Gaming,1.9,1992-06-08,970 Park Pl San Mateo CA 94403
+Unity Technologies,Software,1.1,1987-01-29,30 Third Street San Francisco CA 94103
+Snowflake Technologies,Cloud Computing,1.2,1990-10-15,450 Concar Drive San Mateo CA 94402
+Okta Corporation,Security,0.8,1986-05-27,100 First Street San Francisco CA 94105
+Atlassian Pty Ltd,Software,2.1,1991-08-04,350 Bush St San Francisco CA 94104
+Zendesk Corporation,Software,1.3,1988-03-12,989 Market Street San Francisco CA 94103
+Splunk Corporation,Software,2.7,1985-11-08,270 Brannan Street San Francisco CA 94107
+Workday Corporation,Software,4.3,1989-07-01,6110 Stoneridge Mall Road Pleasanton CA 94588
+ServiceNow Corporation,Software,5.9,1992-04-16,2225 Lawson Ln Santa Clara CA 95054
+MongoDB Corporation,Database,0.9,1987-09-23,1633 Broadway New York NY 10019
+Datadog Corporation,Software,1.0,1990-02-14,620 Eighth Avenue New York NY 10018
+Autodesk Corporation,Software,3.8,1984-06-19,111 McInnis Pkwy San Rafael CA 94903
+Intuit Corporation,Software,9.6,1991-12-07,2700 Coast Avenue Mountain View CA 94043
+Electronic Arts Corp,Gaming,5.6,1986-03-24,209 Redwood Shores Parkway Redwood City CA 94065
+Activision Inc,Gaming,8.8,1989-08-11,2701 Olympic Boulevard Santa Monica CA 90404
+Take Two Corp,Gaming,3.4,1993-05-18,110 W 44th St New York NY 10036
+Advanced Micro Devices,Semiconductors,16.4,1985-10-26,2485 Augustine Dr Santa Clara CA 95054
+Texas Instruments Corp,Semiconductors,17.5,1988-01-13,12500 Texas Instruments Blvd Dallas TX 75243
+Micron Technologies,Semiconductors,27.7,1990-04-30,8000 South Federal Way Boise ID 83716
+Applied Materials Corp,Semiconductors,23.1,1987-07-09,3050 Bowers Avenue Santa Clara CA 95054
+Lam Research Corp,Semiconductors,14.6,1992-02-25,4650 Cushing Pkwy Fremont CA 94538
+KLA Technologies,Semiconductors,6.9,1986-09-12,One Technology Dr Milpitas CA 95035
+Broadcom Limited,Semiconductors,27.5,1989-11-29,1320 Ridder Park Dr San Jose CA 95131
+Xilinx Corporation,Semiconductors,3.2,1984-08-05,2100 Logic Drive San Jose CA 95124
+Synopsys Corporation,Software,4.2,1991-01-22,690 E Middlefield Road Mountain View CA 94043
+Cadence Corporation,Software,2.9,1988-06-15,2655 Seely Ave San Jose CA 95134
+Citrix Corporation,Software,3.2,1985-12-28,851 W Cypress Creek Rd Fort Lauderdale FL 33309
+F5 Corporation,Networking,2.3,1990-03-07,801 Fifth Avenue Seattle WA 98104
+Juniper Corporation,Networking,4.7,1987-05-21,1133 Innovation Way Sunnyvale CA 94089
+Palo Alto Networks Corp,Security,4.3,1992-09-14,3000 Tannery Way Santa Clara CA 95054
+Fortinet Corporation,Security,3.3,1986-11-03,899 Kifer Rd Sunnyvale CA 94086
+CrowdStrike Corporation,Security,1.5,1989-02-10,150 Mathilda Pl Sunnyvale CA 94086
+Zscaler Corporation,Security,0.7,1991-06-27,120 Holger Way San Jose CA 95134
+CloudFlare Technologies,Security,0.7,1988-04-04,101 Townsend Street San Francisco CA 94107
+Akamai Corp,CDN,3.5,1985-08-20,145 Broadway Cambridge MA 02142
+VeriSign Corporation,Security,1.3,1990-01-17,12061 Bluemont Way Reston VA 20190
+GoDaddy Corporation,Internet,3.3,1987-10-06,14455 N Hayden Road Scottsdale AZ 85260
+Etsy Corporation,E-commerce,2.3,1992-03-23,117 Adams St Brooklyn NY 11201
+eBay Corporation,E-commerce,10.3,1986-07-08,2025 Hamilton Ave San Jose CA 95125
+Expedia Corporation,Travel,5.2,1989-12-15,1111 Expedia Group Way West Seattle WA 98119
+Booking Corp,Travel,6.8,1991-04-01,800 Connecticut Avenue Norwalk CT 06854
+DoorDash Corporation,Delivery,4.9,1988-08-18,303 Second Street San Francisco CA 94107
+Instacart Corporation,Delivery,1.8,1985-01-14,50 Beale St San Francisco CA 94105
+Robinhood Corporation,Fintech,1.8,1990-05-31,85 Willow Rd Menlo Park CA 94025
+Coinbase Technologies,Cryptocurrency,7.8,1987-03-09,100 Pine St San Francisco CA 94111
+Block Corporation,Fintech,17.7,1992-07-26,1455 Market Street San Francisco CA 94103
+Affirm Technologies,Fintech,1.3,1986-10-13,650 California Street San Francisco CA 94108
+SoFi Corporation,Fintech,1.0,1989-01-30,234 First St San Francisco CA 94105
+Upstart Corporation,Fintech,0.8,1991-05-07,2950 S Delaware St San Mateo CA 94403
+LendingClub Corp,Fintech,0.8,1988-09-24,595 Market Street San Francisco CA 94105
+Rocket Mortgage,Fintech,12.9,1985-02-11,1050 Woodward Ave Detroit MI 48226
+Visa Corporation,Payments,24.1,1990-06-28,One Market Plaza San Francisco CA 94105
+Mastercard Corporation,Payments,18.9,1987-12-12,2000 Purchase St Purchase NY 10577
+American Express Co,Payments,42.4,1992-10-29,200 Vesey St New York NY 10285
+Capital One Financial,Banking,31.6,1986-04-15,1680 Capital One Dr McLean VA 22102
+Goldman Sachs Group,Banking,59.3,1989-07-02,200 West St New York NY 10282
+Morgan Stanley Corp,Banking,61.1,1991-11-19,1585 Broadway New York NY 10036
+JPMorgan Chase & Co,Banking,127.2,1988-02-06,383 Madison Ave New York NY 10179
+Bank of America Corp,Banking,93.8,1985-06-23,100 N Tryon St Charlotte NC 28255
+Wells Fargo & Company,Banking,78.5,1990-09-09,420 Montgomery St San Francisco CA 94104
+Citigroup Corporation,Banking,71.9,1987-01-26,388 Greenwich St New York NY 10013
+BlackRock Corporation,Asset Management,19.4,1992-12-13,55 E 52nd St New York NY 10055
+Charles Schwab Corp,Financial Services,18.5,1986-05-30,211 Main St San Francisco CA 94105
+Fidelity Investments,Financial Services,24.2,1989-08-16,82 Devonshire St Boston MA 02109
+State Street Corporation,Financial Services,12.0,1991-03-03,One Lincoln St Boston MA 02111
+T Rowe Price Group,Asset Management,7.7,1988-07-20,100 E Pratt St Baltimore MD 21202
+Northern Trust Corp,Financial Services,6.4,1985-12-07,50 S La Salle St Chicago IL 60603
+Invesco Corporation,Asset Management,6.9,1990-04-24,1555 Peachtree St Atlanta GA 30309
+Franklin Templeton,Asset Management,8.4,1987-09-11,One Franklin Pkwy San Mateo CA 94403
+AllianceBernstein LP,Asset Management,4.4,1992-01-28,1345 Avenue of the Americas New York NY 10105
+Ameriprise Corp,Financial Services,13.4,1986-06-14,707 2nd Ave S Minneapolis MN 55402
+Raymond James Financial,Financial Services,9.8,1989-10-01,880 Carillon Pkwy St Petersburg FL 33716 

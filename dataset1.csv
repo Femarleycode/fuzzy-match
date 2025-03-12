@@ -1,0 +1,107 @@
+company_name,contact_person,email,date_of_birth,address
+Apple Inc.,John Smith,john.smith@apple.com,1985-03-15,1 Apple Park Way Cupertino CA 94025
+Microsoft Corporation,Sarah Johnson,sarah.j@microsoft.com,1990-07-22,1 Microsoft Way Redmond WA 98052
+Google LLC,Mike Wilson,mike.w@google.com,1988-11-30,1600 Amphitheatre Parkway Mountain View CA 94043
+Amazon.com Inc,David Brown,david.b@amazon.com,1982-04-18,410 Terry Ave N Seattle WA 98109
+Meta Platforms,Lisa Chen,lisa.c@meta.com,1991-09-25,1 Hacker Way Menlo Park CA 94025
+Netflix Inc.,Robert Taylor,rob.t@netflix.com,1987-06-12,100 Winchester Circle Los Gatos CA 95032
+Tesla Motors,Emma White,emma.w@tesla.com,1989-02-28,3500 Deer Creek Rd Palo Alto CA 94304
+IBM Corporation,James Lee,james.l@ibm.com,1983-12-05,1 New Orchard Road Armonk NY 10504
+Intel Corporation,Maria Garcia,m.garcia@intel.com,1986-08-14,2200 Mission College Blvd Santa Clara CA 95054
+Oracle Systems,Tom Anderson,t.anderson@oracle.com,1984-05-20,500 Oracle Parkway Redwood City CA 94065
+Salesforce Inc,Jennifer Wong,j.wong@salesforce.com,1992-01-15,415 Mission St San Francisco CA 94105
+Adobe Corporation,Michael Chang,m.chang@adobe.com,1988-07-07,345 Park Avenue San Jose CA 95110
+Twitter Corp.,Rachel Green,r.green@twitter.com,1991-03-28,1355 Market St San Francisco CA 94103
+Uber Technologies,Daniel Kim,d.kim@uber.com,1987-11-11,1455 Market St San Francisco CA 94103
+Airbnb Inc.,Sophie Martin,s.martin@airbnb.com,1993-04-02,888 Brannan St San Francisco CA 94103
+PayPal Holdings,Chris Peterson,c.peterson@paypal.com,1985-09-19,2211 North First Street San Jose CA 95131
+NVIDIA Corp,Amanda Chen,a.chen@nvidia.com,1990-12-08,2788 San Tomas Expressway Santa Clara CA 95051
+Dell Technologies,Robert Wilson,r.wilson@dell.com,1981-06-30,1 Dell Way Round Rock TX 78682
+HP Enterprise,Linda Martinez,l.martinez@hp.com,1989-05-17,1501 Page Mill Road Palo Alto CA 94304
+Cisco Systems,Kevin O'Brien,k.obrien@cisco.com,1986-02-23,170 West Tasman Dr San Jose CA 95134
+Qualcomm Inc.,Patricia Lee,p.lee@qualcomm.com,1992-08-11,5775 Morehouse Dr San Diego CA 92121
+VMware Inc.,Mark Thompson,m.thompson@vmware.com,1984-10-09,3401 Hillview Avenue Palo Alto CA 94304
+Zoom Video,Helen Zhang,h.zhang@zoom.com,1991-07-14,55 Almaden Blvd San Jose CA 95113
+Square Inc.,David Miller,d.miller@square.com,1988-03-31,1455 Market St San Francisco CA 94103
+Slack Technologies,Anna Brown,a.brown@slack.com,1993-01-05,500 Howard St San Francisco CA 94105
+Dropbox Inc.,Peter Wang,p.wang@dropbox.com,1987-04-22,1800 Owens St San Francisco CA 94158
+Lyft Inc.,Sarah Davis,s.davis@lyft.com,1990-11-16,185 Berry St San Francisco CA 94107
+Pinterest Inc.,John Rodriguez,j.rodriguez@pinterest.com,1986-08-28,651 Brannan St San Francisco CA 94107
+Snap Inc.,Emily Wilson,e.wilson@snap.com,1992-05-13,2772 Donald Douglas Loop Santa Monica CA 90405
+Spotify Technology,Michael Brown,m.brown@spotify.com,1989-09-07,4 World Trade Center New York NY 10007
+Shopify Inc.,Jessica Lee,j.lee@shopify.com,1991-02-19,150 Elgin Street Ottawa ON K2P 1L4
+DocuSign Inc.,Andrew Chen,a.chen@docusign.com,1985-07-25,221 Main St San Francisco CA 94105
+Twilio Inc.,Michelle Park,m.park@twilio.com,1988-12-03,375 Beale St San Francisco CA 94105
+Palantir Tech,Richard Kim,r.kim@palantir.com,1983-04-11,1555 Blake Street Denver CO 80202
+Roblox Corp.,Laura Martinez,l.martinez@roblox.com,1992-06-08,970 Park Place San Mateo CA 94403
+Unity Software,Thomas Anderson,t.anderson@unity.com,1987-01-29,30 3rd Street San Francisco CA 94103
+Snowflake Inc.,Karen White,k.white@snowflake.com,1990-10-15,450 Concar Dr San Mateo CA 94402
+Okta Inc.,Brian Johnson,b.johnson@okta.com,1986-05-27,100 First St San Francisco CA 94105
+Atlassian Corp.,Emma Thompson,e.thompson@atlassian.com,1991-08-04,350 Bush Street San Francisco CA 94104
+Zendesk Inc.,Alex Rodriguez,a.rodriguez@zendesk.com,1988-03-12,989 Market St San Francisco CA 94103
+Splunk Inc.,Christina Lee,c.lee@splunk.com,1985-11-08,270 Brannan St San Francisco CA 94107
+Workday Inc.,Paul Wilson,p.wilson@workday.com,1989-07-01,6110 Stoneridge Mall Rd Pleasanton CA 94588
+ServiceNow Inc.,Diana Chen,d.chen@servicenow.com,1992-04-16,2225 Lawson Lane Santa Clara CA 95054
+MongoDB Inc.,Steven Taylor,s.taylor@mongodb.com,1987-09-23,1633 Broadway New York NY 10019
+Datadog Inc.,Nicole Brown,n.brown@datadog.com,1990-02-14,620 8th Ave New York NY 10018
+Autodesk Inc.,George Martinez,g.martinez@autodesk.com,1984-06-19,111 McInnis Parkway San Rafael CA 94903
+Intuit Inc.,Rachel Kim,r.kim@intuit.com,1991-12-07,2700 Coast Ave Mountain View CA 94043
+Electronic Arts,David Lee,d.lee@ea.com,1986-03-24,209 Redwood Shores Pkwy Redwood City CA 94065
+Activision Blizzard,Sarah Wilson,s.wilson@activision.com,1989-08-11,2701 Olympic Blvd Santa Monica CA 90404
+Take-Two Interactive,James Chen,j.chen@take2.com,1993-05-18,110 West 44th Street New York NY 10036
+AMD Inc.,Michelle Garcia,m.garcia@amd.com,1985-10-26,2485 Augustine Drive Santa Clara CA 95054
+Texas Instruments,Robert Brown,r.brown@ti.com,1988-01-13,12500 TI Boulevard Dallas TX 75243
+Micron Technology,Jennifer Lee,j.lee@micron.com,1990-04-30,8000 S Federal Way Boise ID 83716
+Applied Materials,Kevin Zhang,k.zhang@amat.com,1987-07-09,3050 Bowers Ave Santa Clara CA 95054
+Lam Research,Emily Davis,e.davis@lamresearch.com,1992-02-25,4650 Cushing Parkway Fremont CA 94538
+KLA Corporation,Michael Wilson,m.wilson@kla.com,1986-09-12,One Technology Drive Milpitas CA 95035
+Broadcom Inc.,Lisa Thompson,l.thompson@broadcom.com,1989-11-29,1320 Ridder Park Drive San Jose CA 95131
+Xilinx Inc.,Daniel Martinez,d.martinez@xilinx.com,1984-08-05,2100 Logic Drive San Jose CA 95124
+Synopsys Inc.,Anna Chen,a.chen@synopsys.com,1991-01-22,690 East Middlefield Rd Mountain View CA 94043
+Cadence Design,Peter Brown,p.brown@cadence.com,1988-06-15,2655 Seely Avenue San Jose CA 95134
+Citrix Systems,Sarah Kim,s.kim@citrix.com,1985-12-28,851 West Cypress Creek Road Fort Lauderdale FL 33309
+F5 Networks,John Wilson,j.wilson@f5.com,1990-03-07,801 5th Ave Seattle WA 98104
+Juniper Networks,Maria Lee,m.lee@juniper.com,1987-05-21,1133 Innovation Way Sunnyvale CA 94089
+Palo Alto Networks,David Chen,d.chen@paloalto.com,1992-09-14,3000 Tannery Way Santa Clara CA 95054
+Fortinet Inc.,Jessica Brown,j.brown@fortinet.com,1986-11-03,899 Kifer Road Sunnyvale CA 94086
+CrowdStrike Inc.,Thomas Garcia,t.garcia@crowdstrike.com,1989-02-10,150 Mathilda Place Sunnyvale CA 94086
+Zscaler Inc.,Emily Martinez,e.martinez@zscaler.com,1991-06-27,120 Holger Way San Jose CA 95134
+Cloudflare Inc.,Richard Wilson,r.wilson@cloudflare.com,1988-04-04,101 Townsend St San Francisco CA 94107
+Akamai Technologies,Karen Lee,k.lee@akamai.com,1985-08-20,145 Broadway Cambridge MA 02142
+VeriSign Inc.,Michael Chen,m.chen@verisign.com,1990-01-17,12061 Bluemont Way Reston VA 20190
+GoDaddy Inc.,Christina Brown,c.brown@godaddy.com,1987-10-06,14455 N Hayden Rd Scottsdale AZ 85260
+Etsy Inc.,Andrew Wilson,a.wilson@etsy.com,1992-03-23,117 Adams Street Brooklyn NY 11201
+eBay Inc.,Laura Martinez,l.martinez2@ebay.com,1986-07-08,2025 Hamilton Avenue San Jose CA 95125
+Expedia Group,Steven Lee,s.lee@expedia.com,1989-12-15,1111 Expedia Group Way W Seattle WA 98119
+Booking Holdings,Diana Chen,d.chen2@booking.com,1991-04-01,800 Connecticut Ave Norwalk CT 06854
+DoorDash Inc.,Paul Brown,p.brown2@doordash.com,1988-08-18,303 2nd Street San Francisco CA 94107
+Instacart Inc.,Nicole Wilson,n.wilson@instacart.com,1985-01-14,50 Beale Street San Francisco CA 94105
+Robinhood Markets,George Lee,g.lee@robinhood.com,1990-05-31,85 Willow Road Menlo Park CA 94025
+Coinbase Global,Rachel Martinez,r.martinez@coinbase.com,1987-03-09,100 Pine Street San Francisco CA 94111
+Block Inc.,David Chen,d.chen2@block.com,1992-07-26,1455 Market St San Francisco CA 94103
+Affirm Holdings,Sarah Brown,s.brown@affirm.com,1986-10-13,650 California St San Francisco CA 94108
+SoFi Technologies,James Wilson,j.wilson2@sofi.com,1989-01-30,234 1st Street San Francisco CA 94105
+Upstart Holdings,Michelle Lee,m.lee2@upstart.com,1991-05-07,2950 S Delaware Street San Mateo CA 94403
+Lending Club,Robert Martinez,r.martinez2@lendingclub.com,1988-09-24,595 Market St San Francisco CA 94105
+Rocket Companies,Jennifer Chen,j.chen@rocketcompanies.com,1985-02-11,1050 Woodward Avenue Detroit MI 48226
+Visa Inc.,Kevin Brown,k.brown@visa.com,1990-06-28,1 Market Plaza San Francisco CA 94105
+Mastercard Inc.,Emily Wilson,e.wilson2@mastercard.com,1987-12-12,2000 Purchase Street Purchase NY 10577
+American Express,Daniel Lee,d.lee2@amex.com,1992-10-29,200 Vesey Street New York NY 10285
+Capital One,Lisa Martinez,l.martinez3@capitalone.com,1986-04-15,1680 Capital One Drive McLean VA 22102
+Goldman Sachs,Thomas Chen,t.chen@gs.com,1989-07-02,200 West Street New York NY 10282
+Morgan Stanley,Anna Brown,a.brown2@morganstanley.com,1991-11-19,1585 Broadway New York NY 10036
+JPMorgan Chase,Peter Wilson,p.wilson2@jpmorgan.com,1988-02-06,383 Madison Avenue New York NY 10179
+Bank of America,Sarah Lee,s.lee2@bofa.com,1985-06-23,100 North Tryon Street Charlotte NC 28255
+Wells Fargo,John Martinez,j.martinez@wellsfargo.com,1990-09-09,420 Montgomery Street San Francisco CA 94104
+Citigroup Inc.,Maria Chen,m.chen2@citi.com,1987-01-26,388 Greenwich Street New York NY 10013
+BlackRock Inc.,David Brown,d.brown2@blackrock.com,1992-12-13,55 East 52nd Street New York NY 10055
+Charles Schwab,Jessica Wilson,j.wilson3@schwab.com,1986-05-30,211 Main Street San Francisco CA 94105
+Fidelity National,Richard Lee,r.lee@fidelity.com,1989-08-16,82 Devonshire Street Boston MA 02109
+State Street Corp.,Karen Martinez,k.martinez@statestreet.com,1991-03-03,1 Lincoln Street Boston MA 02111
+T. Rowe Price,Michael Chen,m.chen3@troweprice.com,1988-07-20,100 East Pratt Street Baltimore MD 21202
+Northern Trust,Christina Brown,c.brown2@northerntrust.com,1985-12-07,50 South La Salle Street Chicago IL 60603
+Invesco Ltd.,Andrew Wilson,a.wilson2@invesco.com,1990-04-24,1555 Peachtree Street Atlanta GA 30309
+Franklin Resources,Laura Lee,l.lee@franklinresources.com,1987-09-11,One Franklin Parkway San Mateo CA 94403
+AllianceBernstein,Steven Martinez,s.martinez@alliancebernstein.com,1992-01-28,1345 Avenue of the Americas New York NY 10105
+Ameriprise Financial,Diana Chen,d.chen3@ameriprise.com,1986-06-14,707 2nd Avenue South Minneapolis MN 55402
+Raymond James,Paul Brown,p.brown3@raymondjames.com,1989-10-01,880 Carillon Parkway St. Petersburg FL 33716 

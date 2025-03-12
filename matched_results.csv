@@ -1,0 +1,34 @@
+company_1,company_2,similarity_score,contact_person,email,industry,revenue,date_of_birth,address_1,address_2
+AllianceBernstein,AllianceBernstein LP,92,Steven Martinez,s.martinez@alliancebernstein.com,Asset Management,4.4,1992-01-28,1345 Avenue of the Americas New York NY 10105,1345 Avenue of the Americas New York NY 10105
+American Express,American Express Co,91,Daniel Lee,d.lee2@amex.com,Payments,42.4,1992-10-29,200 Vesey Street New York NY 10285,200 Vesey St New York NY 10285
+KLA Corporation,Okta Corporation,90,Michael Wilson,m.wilson@kla.com,Security,0.8,1986-09-12,One Technology Drive Milpitas CA 95035,100 First Street San Francisco CA 94105
+JPMorgan Chase,JPMorgan Chase & Co,90,Peter Wilson,p.wilson2@jpmorgan.com,Banking,127.2,1988-02-06,383 Madison Avenue New York NY 10179,383 Madison Ave New York NY 10179
+Micron Technology,Micron Technologies,89,Jennifer Lee,j.lee@micron.com,Semiconductors,27.7,1990-04-30,8000 S Federal Way Boise ID 83716,8000 South Federal Way Boise ID 83716
+Palo Alto Networks,Palo Alto Networks Corp,88,David Chen,d.chen@paloalto.com,Security,4.3,1992-09-14,3000 Tannery Way Santa Clara CA 95054,3000 Tannery Way Santa Clara CA 95054
+Slack Technologies,KLA Technologies,88,Anna Brown,a.brown@slack.com,Semiconductors,6.9,1993-01-05,500 Howard St San Francisco CA 94105,One Technology Dr Milpitas CA 95035
+Applied Materials,Applied Materials Corp,87,Kevin Zhang,k.zhang@amat.com,Semiconductors,23.1,1987-07-09,3050 Bowers Ave Santa Clara CA 95054,3050 Bowers Avenue Santa Clara CA 95054
+Texas Instruments,Texas Instruments Corp,87,Robert Brown,r.brown@ti.com,Semiconductors,17.5,1988-01-13,12500 TI Boulevard Dallas TX 75243,12500 Texas Instruments Blvd Dallas TX 75243
+Salesforce Inc,Salesforce.com,86,Jennifer Wong,j.wong@salesforce.com,Cloud Computing,26.5,1992-01-15,415 Mission St San Francisco CA 94105,415 Mission Street San Francisco CA 94105
+Bank of America,Bank of America Corp,86,Sarah Lee,s.lee2@bofa.com,Banking,93.8,1985-06-23,100 North Tryon Street Charlotte NC 28255,100 N Tryon St Charlotte NC 28255
+Intel Corporation,Intuit Corporation,86,Maria Garcia,m.garcia@intel.com,Software,9.6,1986-08-14,2200 Mission College Blvd Santa Clara CA 95054,2700 Coast Avenue Mountain View CA 94043
+Electronic Arts,Electronic Arts Corp,86,David Lee,d.lee@ea.com,Gaming,5.6,1986-03-24,209 Redwood Shores Pkwy Redwood City CA 94065,209 Redwood Shores Parkway Redwood City CA 94065
+Akamai Technologies,KLA Technologies,86,Karen Lee,k.lee@akamai.com,Semiconductors,6.9,1985-08-20,145 Broadway Cambridge MA 02142,One Technology Dr Milpitas CA 95035
+Charles Schwab,Charles Schwab Corp,85,Jessica Wilson,j.wilson3@schwab.com,Financial Services,18.5,1986-05-30,211 Main Street San Francisco CA 94105,211 Main St San Francisco CA 94105
+Dell Technologies,KLA Technologies,85,Robert Wilson,r.wilson@dell.com,Semiconductors,6.9,1981-06-30,1 Dell Way Round Rock TX 78682,One Technology Dr Milpitas CA 95035
+Morgan Stanley,Morgan Stanley Corp,85,Anna Brown,a.brown2@morganstanley.com,Banking,61.1,1991-11-19,1585 Broadway New York NY 10036,1585 Broadway New York NY 10036
+Northern Trust,Northern Trust Corp,85,Christina Brown,c.brown2@northerntrust.com,Financial Services,6.4,1985-12-07,50 South La Salle Street Chicago IL 60603,50 S La Salle St Chicago IL 60603
+IBM Corporation,eBay Corporation,84,James Lee,james.l@ibm.com,E-commerce,10.3,1983-12-05,1 New Orchard Road Armonk NY 10504,2025 Hamilton Ave San Jose CA 95125
+Meta Platforms,Meta Platform Inc,84,Lisa Chen,lisa.c@meta.com,Social Media,116.6,1991-09-25,1 Hacker Way Menlo Park CA 94025,One Hacker Way Menlo Park CA 94025
+SoFi Technologies,Affirm Technologies,83,James Wilson,j.wilson2@sofi.com,Fintech,1.3,1989-01-30,234 1st Street San Francisco CA 94105,650 California Street San Francisco CA 94108
+State Street Corp.,State Street Corporation,83,Karen Martinez,k.martinez@statestreet.com,Financial Services,12.0,1991-03-03,1 Lincoln Street Boston MA 02111,One Lincoln St Boston MA 02111
+Adobe Corporation,Cadence Corporation,83,Michael Chang,m.chang@adobe.com,Software,2.9,1988-07-07,345 Park Avenue San Jose CA 95110,2655 Seely Ave San Jose CA 95134
+Lam Research,Lam Research Corp,83,Emily Davis,e.davis@lamresearch.com,Semiconductors,14.6,1992-02-25,4650 Cushing Parkway Fremont CA 94538,4650 Cushing Pkwy Fremont CA 94538
+Goldman Sachs,Goldman Sachs Group,81,Thomas Chen,t.chen@gs.com,Banking,59.3,1989-07-02,200 West Street New York NY 10282,200 West St New York NY 10282
+Microsoft Corporation,SoFi Corporation,81,Sarah Johnson,sarah.j@microsoft.com,Fintech,1.0,1990-07-22,1 Microsoft Way Redmond WA 98052,234 First St San Francisco CA 94105
+Snap Inc.,Snapchat Inc,80,Emily Wilson,e.wilson@snap.com,Social Media,4.1,1992-05-13,2772 Donald Douglas Loop Santa Monica CA 90405,2772 Donald Douglas Loop N Santa Monica CA 90405
+T. Rowe Price,T Rowe Price Group,80,Michael Chen,m.chen3@troweprice.com,Asset Management,7.7,1988-07-20,100 East Pratt Street Baltimore MD 21202,100 E Pratt St Baltimore MD 21202
+Uber Technologies,Unity Technologies,80,Daniel Kim,d.kim@uber.com,Software,1.1,1987-11-11,1455 Market St San Francisco CA 94103,30 Third Street San Francisco CA 94103
+Twitter Corp.,Twitter Corporation,77,Rachel Green,r.green@twitter.com,Social Media,5.1,1991-03-28,1355 Market St San Francisco CA 94103,1355 Market Street San Francisco CA 94103
+Palantir Tech,Palantir Technologies,76,Richard Kim,r.kim@palantir.com,Software,1.5,1983-04-11,1555 Blake Street Denver CO 80202,1555 Blake St Denver CO 80202
+NVIDIA Corp,Nvidia Corporation,76,Amanda Chen,a.chen@nvidia.com,Semiconductors,26.9,1990-12-08,2788 San Tomas Expressway Santa Clara CA 95051,2788 San Tomas Expy Santa Clara CA 95051
+AMD Inc.,Adobe Inc,75,Michelle Garcia,m.garcia@amd.com,Software,15.8,1985-10-26,2485 Augustine Drive Santa Clara CA 95054,345 Park Ave San Jose CA 95110
