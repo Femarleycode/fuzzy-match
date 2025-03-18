@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "gimmick3205/fuzzy-match:latest"
+        DOCKER_IMAGE = "Femarleycode/fuzzy-match:latest"
     }
 
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Gimmick3205/fuzzy-match'
+                git 'https://github.com/Femarleycode/fuzzy-match'
             }
         }
 
