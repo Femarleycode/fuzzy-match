@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Femarleycode/fuzzy-match'
+                git branch: 'main', url: 'https://github.com/Femarleycode/fuzzy-match'
             }
         }
 
