@@ -4,4 +4,4 @@ pandas==2.1.4
 pylint==3.0.2
 flake8==6.1.0
 mypy==1.7.1
-types-pandas==2.1.4.20240106 
+types-pandas==1.11.0
