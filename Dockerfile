@@ -1,5 +1,12 @@
+#Docker sudo conflict
+
+USER root  
+RUN groupadd -g 1001 docker && usermod -aG docker jenkins  
+USER jenkins 
+
 # Use an official Python image
 FROM python:3.9
+
 
 # Set the working directory inside the container
 WORKDIR /app
