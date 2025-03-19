@@ -15,7 +15,7 @@ pipeline {
                 // Fix Docker socket permissions - use with caution in production
                 sh '''
                     if [ -S /var/run/docker.sock ]; then
-                        sudo chmod 666 /var/run/docker.sock
+                        chmod 666 /var/run/docker.sock
                     else
                         echo "Docker socket not found at expected location"
                         exit 1
