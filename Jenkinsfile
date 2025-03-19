@@ -49,23 +49,22 @@ pipeline {
                 sh "docker push ${DOCKER_IMAGE}:latest"
             }
         }
+        
+        stage('Cleanup') {
+            steps {
+                // Clean up - logout from Docker Hub and remove local images
+                sh 'docker logout'
+                sh "docker rmi ${DOCKER_IMAGE}:${DOCKER_TAG} ${DOCKER_IMAGE}:latest || true"
+            }
+        }
     }
     
     post {
-        always {
-            // Clean up - always logout from Docker Hub
-            sh 'docker logout'
-            // Clean up local images to prevent disk space issues
-            sh "docker rmi ${DOCKER_IMAGE}:${DOCKER_TAG} ${DOCKER_IMAGE}:latest || true"
-            
-            // Print success/failure message
-            script {
-                if (currentBuild.resultIsBetterOrEqualTo('SUCCESS')) {
-                    echo "Successfully built and pushed ${DOCKER_IMAGE}:${DOCKER_TAG} to Docker Hub"
-                } else {
-                    echo "Failed to build/push Docker image"
-                }
-            }
+        success {
+            echo "Successfully built and pushed ${DOCKER_IMAGE}:${DOCKER_TAG} to Docker Hub"
+        }
+        failure {
+            echo "Failed to build/push Docker image"
         }
     }
 }
