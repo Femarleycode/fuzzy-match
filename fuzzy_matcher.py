@@ -1,35 +1,62 @@
+"""Fuzzy matching application for comparing company data between two datasets."""
+from typing import Dict, List, Optional, Tuple, Any
 import pandas as pd
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
-def load_datasets(file1, file2):
-    """Load the two CSV datasets into pandas DataFrames."""
+def load_datasets(file1: str, file2: str) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    """Load the two CSV datasets into pandas DataFrames.
+    
+    Args:
+        file1: Path to the first CSV file
+        file2: Path to the second CSV file
+        
+    Returns:
+        Tuple containing two pandas DataFrames
+    """
     df1 = pd.read_csv(file1)
     df2 = pd.read_csv(file2)
     return df1, df2
 
-def find_best_match(name, choices, score_cutoff=75):
-    """Find the best match for a name in a list of choices using fuzzy matching."""
+def find_best_match(name: str, choices: List[str], score_cutoff: int = 75) -> Optional[Tuple[str, int]]:
+    """Find the best match for a name in a list of choices using fuzzy matching.
+    
+    Args:
+        name: The name to find a match for
+        choices: List of possible matches
+        score_cutoff: Minimum similarity score to consider a match
+        
+    Returns:
+        Tuple of (best match, similarity score) if found, None otherwise
+    """
     match = process.extractOne(name, choices, scorer=fuzz.token_sort_ratio)
     if match and match[1] >= score_cutoff:
         return match
     return None
 
-def match_companies(df1, df2, score_cutoff=75):
-    """Match companies between two dataframes using fuzzy matching."""
-    matches = []
+def match_companies(df1: pd.DataFrame, df2: pd.DataFrame, score_cutoff: int = 75) -> pd.DataFrame:
+    """Match companies between two dataframes using fuzzy matching.
+    
+    Args:
+        df1: First DataFrame containing company information
+        df2: Second DataFrame containing company information
+        score_cutoff: Minimum similarity score to consider a match
+        
+    Returns:
+        DataFrame containing matched companies and their details
+    """
+    matches: List[Dict[str, Any]] = []
     
     # Get list of company names from df2
     company_names_2 = df2['company_name'].tolist()
     
     # Find matches for each company in df1
-    for idx, row in df1.iterrows():
+    for _, row in df1.iterrows():
         company_1 = row['company_name']
         match = find_best_match(company_1, company_names_2, score_cutoff)
         
         if match:
-            company_2 = match[0]
-            similarity_score = match[1]
+            company_2, similarity_score = match
             
             # Get the full rows from both dataframes
             df2_row = df2[df2['company_name'] == company_2].iloc[0]
@@ -49,7 +76,8 @@ def match_companies(df1, df2, score_cutoff=75):
     
     return pd.DataFrame(matches)
 
-def main():
+def main() -> None:
+    """Main function to run the fuzzy matching process."""
     # Load the datasets
     df1, df2 = load_datasets('dataset1.csv', 'dataset2.csv')
     

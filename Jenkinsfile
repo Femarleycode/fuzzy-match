@@ -2,37 +2,55 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_HUB_CREDS = credentials('docker-hub-credentials')
-        DOCKER_IMAGE = "gimmick3205/fuzzy_match"
-        DOCKER_TAG = "${BUILD_NUMBER}"
+        PYTHON_VERSION = '3.9'
+        VENV_PATH = 'venv'
     }
     
     stages {
-        stage('Clone Repository') {
+        stage('Setup') {
             steps {
-                git url: 'https://github.com/Femarleycode/fuzzy-match.git', branch: 'main'
+                sh '''
+                    python3 -m venv ${VENV_PATH}
+                    . ${VENV_PATH}/bin/activate
+                    pip install -r requirements.txt
+                    pip install pylint flake8 mypy
+                '''
             }
         }
         
-        stage('Build and Push Docker Image') {
+        stage('Static Analysis') {
             steps {
-                script {
-                    docker.withRegistry('https://index.docker.io/v1/', 'docker-hub-credentials') {
-                        def customImage = docker.build("${DOCKER_IMAGE}:${DOCKER_TAG}")
-                        customImage.push()
-                        customImage.push('latest')
-                    }
-                }
+                sh '''
+                    . ${VENV_PATH}/bin/activate
+                    
+                    # Run pylint
+                    echo "Running pylint..."
+                    pylint fuzzy_matcher.py || true
+                    
+                    # Run flake8
+                    echo "Running flake8..."
+                    flake8 fuzzy_matcher.py || true
+                    
+                    # Run mypy for type checking
+                    echo "Running mypy..."
+                    mypy fuzzy_matcher.py || true
+                '''
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                sh '''
+                    . ${VENV_PATH}/bin/activate
+                    python fuzzy_matcher.py
+                '''
             }
         }
     }
     
     post {
-        success {
-            echo "Successfully built and pushed ${DOCKER_IMAGE}:${DOCKER_TAG} to Docker Hub"
-        }
-        failure {
-            echo "Failed to build/push Docker image"
+        always {
+            cleanWs()
         }
     }
 }
